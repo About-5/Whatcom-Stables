@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Whatcom Stables</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../main.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+        <div class="container">
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="../index.html">Whatcom Stables</a>
+
+          <!-- Collapse button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#basicExampleNav"
+            aria-controls="basicExampleNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html"
+                  >Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Facility.html">Faciltiy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Training.html">Training</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Corgis.html">Corgis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="facility">
+      <div class="facilityIntro">
+        <h3>Whatcom Stables</h3>
+        <h2>6342 Noon Road</h2>
+        <h2>Everson, WA 98247</h2>
+        <p>
+          Whatcom Stables is in Everson, Washington conveniently located between
+          Bellingham and Lynden. This is a quiet, peaceful equine boarding and
+          training facility with nice big arenas and beautiful views.
+          <a href="Contact.html">Contact us</a>
+          for more information about our facility.
+        </p>
+        <h2>Rates</h2>
+        <ul>
+          <li>Full Care Board - $450/month</li>
+          <li>Trailer Parking - $20/month</li>
+          <li>
+            Non Boarder Haul Ins - $10/day or $50/month per horse for unlimited
+            rides
+          </li>
+        </ul>
+      </div>
+      <div class="facilitySpecs">
+        <h2>Facility</h2>
+        <ul>
+          <li>12' x 12' stalls cleaned daily</li>
+          <li>135' x 200' outdoor arena with professional lighting</li>
+          <li>70' x 144' covered arena with professional lighting</li>
+          <li>Paddocks for turnout or stall with individual runs</li>
+          <li>Large individual, locked tack lockers (32"x32"x8")</li>
+          <li>Changing area</li>
+          <li>Hot/cold running water</li>
+          <li>Horse washing area</li>
+          <li>Owner on site for 24hr. security and care</li>
+          <li>Open 8am to 9pm</li>
+          <li>Personal, professional care everyday, guaranteed</li>
+        </ul>
+        <h2>Care Provided</h2>
+        <ul>
+          <li>12' x 12' matted stall with clean bedding</li>
+          <li>Stall cleaning 7 days a week</li>
+          <li>
+            Daily turnout to paddock (except during servere weather, two horse
+            maximum in fields)
+          </li>
+          <li>3 feedings per day of premium alfalfa/orchard grass mix hay</li>
+        </ul>
+      </div>
+    </section>
+    <section class="facilityPics">
+      <div class="slideshowLeft">
+        <div class="leftSlides">
+          <img src="../Images/MainBarn.jpg" alt="MainBarn" />
+        </div>
+        <div class="leftSlides">
+          <img src="../Images/barn.jpg" />
+        </div>
+        <div class="leftSlides">
+          <img src="../Images/barn1.jpg" />
+        </div>
+        <div class="leftSlides">
+          <img src="../Images/barn2.jpg" />
+        </div>
+        <div class="leftSlides">
+          <img src="../Images/barn3.jpg" />
+        </div>
+        <div class="leftSlides">
+          <img src="../Images/obstacle.jpg" />
+        </div>
+        <div class="leftSlides">
+          <img src="../Images/obstacle1.jpg" />
+        </div>
+        <div class="leftSlides">
+          <img src="../Images/obstacle2.jpg" />
+        </div>
+        <a class="prev" onclick="changeLeft(-1)">&#10094;</a>
+        <a class="next" onclick="changeLeft(1)">&#10095;</a>
+      </div>
+      <div class="slideshowRight">
+        <div class="rightSlides">
+          <img src="../Images/horsestalls.jpg" />
+        </div>
+        <div class="rightSlides">
+          <img src="../Images/horsestalls1.jpg" />
+        </div>
+        <div class="rightSlides">
+          <img src="../Images/horsewalks.jpg" />
+        </div>
+        <div class="rightSlides">
+          <img src="../Images/field.jpg" />
+        </div>
+        <div class="rightSlides">
+          <img src="../Images/field1.jpg" />
+        </div>
+        <div class="rightSlides">
+          <img src="../Images/field2.jpg" />
+        </div>
+        <div class="rightSlides">
+          <img src="../Images/field3.jpg" />
+        </div>
+        <div class="rightSlides">
+          <img src="../Images/field4.jpg" />
+        </div>
+        <a class="prev" onclick="changeRight(-1)">&#10094;</a>
+        <a class="next" onclick="changeRight(1)">&#10095;</a>
+      </div>
+    </section>
+  </body>
+</html>
+
+<script>
+  var leftIndex = 1
+  showLeft(leftIndex)
+
+  function changeLeft(n) {
+    showLeft((leftIndex += n))
+  }
+
+  function leftSlide(n) {
+    showLeft((leftIndex = n))
+  }
+
+  function showLeft(n) {
+    var i
+    var slides = document.getElementsByClassName('leftSlides')
+    if (n > slides.length) {
+      leftIndex = 1
+    }
+    if (n < 1) {
+      leftIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none'
+    }
+    slides[leftIndex - 1].style.display = 'block'
+  }
+
+  var rightIndex = 1
+  showRight(rightIndex)
+
+  function changeRight(n) {
+    showRight((rightIndex += n))
+  }
+
+  function rightSlide(n) {
+    showRight((rightIndex = n))
+  }
+
+  function showRight(n) {
+    var i
+    var slides = document.getElementsByClassName('rightSlides')
+    if (n > slides.length) {
+      rightIndex = 1
+    }
+    if (n < 1) {
+      rightIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none'
+    }
+    slides[rightIndex - 1].style.display = 'block'
+  }
+</script>

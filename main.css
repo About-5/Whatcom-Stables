@@ -1,0 +1,412 @@
+/* Desktop Design */
+
+body {
+  color: white;
+  background-image: url('Images/blue-bg.jpg');
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 900px;
+}
+
+section {
+  background: white;
+  padding: 0px 0px 10px 0px;
+}
+
+h2,
+h3 {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  line-height: 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 18px;
+}
+
+div img {
+  box-shadow: gray 0 0 5px;
+}
+
+section div {
+  background-color: white;
+  color: gray;
+  padding: 5px;
+  margin: 0% 2% 0% 2%;
+}
+
+body header a {
+  color: white;
+}
+
+footer {
+  background: white;
+  padding: 10px;
+}
+
+footer button {
+  background-color: rgba(139, 69, 19, 0.65);
+  border-style: outset;
+  border-color: rgb(0, 0, 0, 0.7);
+  border-radius: 15px;
+  box-shadow: black 0 0 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  height: 35px;
+  width: 80px;
+}
+
+footer img {
+  width: 150px;
+}
+
+.intro {
+  clear: left;
+  color: gray;
+  display: flex;
+  font-size: 20px;
+  padding: 0px 0px 0px 20px;
+}
+
+.intro div h2 {
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.intro div h3 {
+  font-size: 25px;
+}
+
+.intro div h2,
+h3 {
+  color: teal;
+}
+
+.intro div {
+  width: 45%;
+}
+
+.intro div p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro figure {
+  color: gray;
+  margin: auto;
+  padding: 20px 5px 0 0;
+}
+
+.intro figure img {
+  width: 390px;
+}
+
+.facility {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+}
+
+.facility h2 {
+  color: teal;
+}
+
+.facility ul {
+  font-size: 15px;
+}
+
+.facilityIntro {
+  width: 50%;
+}
+
+.facilityIntro h3 {
+  font-size: 30px;
+}
+
+.facilityIntro h2 {
+  font-size: 20px;
+}
+
+.facilitySpecs {
+  font-size: 14px;
+  width: 50%;
+}
+
+.facilityPics {
+  display: flex;
+  padding: 10px 5px 0px 5px;
+}
+
+.facilityPics img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.slideshowLeft,
+.slideshowRight {
+  position: relative;
+  margin: auto;
+  padding: 0;
+}
+
+.leftSlides,
+.rightSlides {
+  display: none;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin: -20px -3px 0px 13px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px 3px 3px 3px;
+  user-select: none;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.training {
+  background-color: white;
+  color: gray;
+  display: flex;
+  padding: 5px;
+}
+
+.training div.mainTraining {
+  width: 65%;
+}
+
+.training div.trainingPics {
+  width: 30%;
+  margin: 0;
+}
+
+.training div.trainingPics figure {
+  display: inline-block;
+  margin: auto;
+}
+
+.training div.trainingPics figure img {
+  width: 250px;
+  margin: 15px 0px 10px 0px;
+}
+
+.training h2 {
+  color: teal;
+  font-size: 30px;
+}
+
+.training h3 {
+  color: black;
+  font-size: 20px;
+  margin: 0;
+}
+
+.training strong {
+  color: gray;
+}
+
+.training p {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.training a {
+  color: teal;
+}
+
+.training ul {
+  font-size: 15px;
+}
+
+.corgis {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.corgis img {
+  width: 900px;
+}
+
+.corgis h2 {
+  color: teal;
+}
+
+.corgis figure {
+  display: inline-block;
+  margin: 0;
+}
+
+.corgis figure img {
+  border: 1px solid white;
+  height: 250px;
+  width: auto;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact button {
+  background-color: rgba(139, 69, 19, 0.65);
+  border-style: outset;
+  border-color: rgb(0, 0, 0, 0.7);
+  border-radius: 15px;
+  box-shadow: black 0 0 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  height: 50px;
+  width: 150px;
+  margin: 10px 0 0 0;
+}
+
+.contact figure {
+  margin: 0;
+}
+
+.contact .contactInfo figure img {
+  width: 307.75px;
+}
+
+.contactPics {
+  margin: 0;
+}
+
+.contactPics figure {
+  margin: auto;
+}
+
+.contactPics figure img {
+  width: 480px;
+  margin: 20px 0px 0px 20px;
+}
+
+.contact h2 {
+  color: teal;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.contact h3 {
+  font-size: 22px;
+  font-style: oblique;
+}
+
+.contact ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+/* Mobile Design */
+
+@media screen and (max-width: 900px) {
+  body {
+    width: 100vw;
+  }
+  section {
+    width: 100vw;
+  }
+  .intro,
+  .facility,
+  .facilityPics,
+  .training,
+  .corgis,
+  .contact,
+  footer {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  .intro div,
+  .facility div,
+  .contact,
+  .training div.mainTraining,
+  .training div.trainingPics {
+    width: 100vw;
+  }
+  figure {
+    margin: auto;
+    width: 90vw;
+    text-align: center;
+  }
+  .intro div.introPics figure img {
+    margin: 0;
+    max-width: 300px;
+  }
+  .facilityPics img {
+    max-width: 300px;
+    height: 175px;
+  }
+  .training div.trainingPics figure img {
+    margin: auto;
+    width: 300px;
+  }
+  .corgis img {
+    width: 100vw;
+  }
+  .corgis figure img {
+    max-width: 300px;
+    object-fit: cover;
+  }
+  .contact {
+    margin: auto;
+    text-align: center;
+  }
+  .contact figure img {
+    max-width: 300px;
+  }
+}
